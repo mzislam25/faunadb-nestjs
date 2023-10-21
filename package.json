@@ -1,0 +1,37 @@
+{
+  "name": "faunadb-nestjs",
+  "version": "1.0.0",
+  "description": "Reusable NestJS package for Faunadb connection",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzislam25/faunadb-nestjs.git"
+  },
+  "keywords": [
+    "faunadb",
+    "nestjs",
+    "nest-package"
+  ],
+  "author": "Zahir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzislam25/faunadb-nestjs/issues"
+  },
+  "homepage": "https://github.com/mzislam25/faunadb-nestjs#readme",
+  "dependencies": {
+    "@nestjs/common": "^10.2.7",
+    "faunadb": "^4.8.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
