@@ -1,4 +1,4 @@
-# 📂 faundb-nestjs
+# 📂 faunadb-nestjs
 Reusable NestJs package for Fauna dB connection.
 
 ## Install
