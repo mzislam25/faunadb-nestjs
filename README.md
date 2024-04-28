@@ -4,9 +4,9 @@ Reusable NestJs package for Fauna dB connection.
 ## Install
 
 ```bash
-npm install --save faundb-nestjs
+npm install --save faunadb-nestjs
 # or
-yarn add faundb-nestjs
+yarn add faunadb-nestjs
 ```
 
 # Usage
