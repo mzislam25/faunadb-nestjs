@@ -1,6 +1,6 @@
 {
   "name": "faunadb-nestjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Reusable NestJS package for Faunadb connection",
   "main": "dist/index",
   "types": "dist/index",
